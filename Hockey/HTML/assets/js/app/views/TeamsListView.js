@@ -17,7 +17,9 @@ Class(function TeamsListView() {
         $this.css({
             position: 'relative',
             width: 500,
-            margin: '0 auto'
+            margin: '0 auto',
+            overflowY: "scroll",
+            height: "100%"
         })
     }
 

@@ -24,6 +24,7 @@ Class(function TeamsListController() {
         })
 
         Stage.add(_view.element);
+        _view.animateIn();
     }
 
     //*** public functions */
